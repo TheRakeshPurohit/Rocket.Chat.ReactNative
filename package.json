@@ -28,7 +28,7 @@
 		]
 	},
 	"dependencies": {
-		"@bugsnag/react-native": "^7.10.5",
+		"@bugsnag/react-native": "^7.16.7",
 		"@codler/react-native-keyboard-aware-scroll-view": "^1.0.1",
 		"@gorhom/bottom-sheet": "^4",
 		"@nozbe/watermelondb": "0.23.0",
