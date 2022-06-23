@@ -2865,7 +2865,7 @@
     xcode "^3.0.1"
     xml2js "^0.4.23"
 
-"@expo/config-plugins@4.1.5":
+"@expo/config-plugins@4.1.5", "@expo/config-plugins@^4.0.2":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.1.5.tgz#9d357d2cda9c095e511b51583ede8a3b76174068"
   integrity sha512-RVvU40RtZt12HavuDAe+LDIq9lHj7sheOfMEHdmpJ/uTA8pgvkbc56XF6JHQD+yRr6+uhhb+JnAasGq49dsQbw==
@@ -9174,12 +9174,13 @@ expect@^27.0.6:
     jest-message-util "^27.0.6"
     jest-regex-util "^27.0.6"
 
-expo-apple-authentication@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/expo-apple-authentication/-/expo-apple-authentication-3.2.1.tgz#c35e2151163a590f91da07a450c6d0c2213cb407"
-  integrity sha512-BF98D5mszbbIVsdTEoo4AK4PaBbmpVaQ/MkseYY+kHKdiNl8BKAdlNrInnMYZZaOekPrKMJaJRaXZzrZH9CB3g==
+expo-apple-authentication@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/expo-apple-authentication/-/expo-apple-authentication-4.0.3.tgz#b73b30c45e3ac1c57d5cf767f0dea891dd4d3ac8"
+  integrity sha512-7jMqlggVWLWawv5KWEPkCX8vuMGjsH6rdiQ1QPTnBTfKvStn3kd3i4lmFw/jMQpo4UKKSgl0RFKHEO5uQpd2pQ==
   dependencies:
-    "@expo/config-plugins" "^3.0.0"
+    "@expo/config-plugins" "^4.0.2"
+    expo-modules-core "~0.4.4"
 
 expo-asset@~8.3.3:
   version "8.3.3"
@@ -9256,6 +9257,14 @@ expo-modules-core@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.2.0.tgz#68e5b6e53d0afbf8d131578831aed657589a2d42"
   integrity sha512-inpfZ5X/BaTtbj2wG9PA9AC0MN8VyId6KSRlVuEg7+ziurHBy/kKDFxpOddUokhwiln2uhoYPSStJjR/tKypdw==
+
+expo-modules-core@~0.4.4:
+  version "0.4.10"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.4.10.tgz#6c7e7e211b3056fc23a462e9faea88cc7653fe9b"
+  integrity sha512-uCZA3QzF0syRaHwYY99iaNhnye4vSQGsJ/y6IAiesXdbeVahWibX4G1KoKNPUyNsKXIM4tqA+4yByUSvJe4AAw==
+  dependencies:
+    compare-versions "^3.4.0"
+    invariant "^2.2.4"
 
 expo-video-thumbnails@5.2.1:
   version "5.2.1"
