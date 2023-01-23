@@ -32,7 +32,7 @@
 		"@codler/react-native-keyboard-aware-scroll-view": "^2.0.1",
 		"@gorhom/bottom-sheet": "^4.3.1",
 		"@hookform/resolvers": "^2.9.10",
-		"@nozbe/watermelondb": "0.23.0",
+		"@nozbe/watermelondb": "0.25.1",
 		"@react-native-async-storage/async-storage": "^1.17.11",
 		"@react-native-clipboard/clipboard": "^1.8.5",
 		"@react-native-community/art": "^1.2.0",
